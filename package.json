@@ -1,0 +1,17 @@
+{
+  "name": "rock.paper.scissors",
+  "version": "1.0.0",
+  "description": "node.js test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha --watch *.test.js"
+  },
+  "author": "roba moadi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "should": "^13.2.3"
+  }
+}
